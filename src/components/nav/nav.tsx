@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="text-white text-lg font-bold">
           <Link href="/">My Blog</Link>
         </div>
-        <div className="space-x-4">
+        <div className="space-x-4 flex">
           <Link className="text-gray-300 hover:text-white" href="/">
             Home
           </Link>
