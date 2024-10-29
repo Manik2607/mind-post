@@ -13,10 +13,10 @@ export default function Navbar() {
             Home
           </Link>
           <Link className="text-gray-300 hover:text-white" href="/about">
-            About
-          </Link>
-          <Link className="text-gray-300 hover:text-white" href="/posts">
             Posts
+          </Link>
+          <Link className="text-gray-300 hover:text-white" href="/newpost">
+            New Post
           </Link>
           <LoginHandeler/>
         </div>

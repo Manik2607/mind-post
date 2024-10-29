@@ -31,6 +31,13 @@ body {
   padding-right: 80px;
 }
 
+.ql-container{
+  font-size: 28px !important;
+}
+.quill > .ql-container > .ql-blank::before{
+  color: gray;
+}
+
 @media screen and (max-width:1536px){
   .main-container{
     max-width: 1280px;
